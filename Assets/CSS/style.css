@@ -2,16 +2,19 @@
 
 
 /*......Heading*/
+.header{
+    text-align: center;
+    margin-top:20px;
+}
 
 .title {
     font-family: "Nunito", Arial;
     font-weight: 800;
-    font-size: 22px;
-    margin: 0 24px;
-    line-height: 47px;
+    font-size: 30px;
+    line-height: 50px;
     text-transform: uppercase;
-    text-align: center;
     color:#004054;
     text-decoration: none;
    }
+
 
