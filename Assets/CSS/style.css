@@ -2,11 +2,8 @@
 
 
 /*......Heading*/
-nav{
-    width: 100%
-}
 
-title {
+.title {
     font-family: "Nunito", Arial;
     font-weight: 800;
     font-size: 22px;
@@ -14,7 +11,6 @@ title {
     line-height: 47px;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 50%;
     color:#004054;
     text-decoration: none;
    }

@@ -3,15 +3,23 @@
     <head>
     <!link to bootstrap><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <!link to fontawsom><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <!link to CSS style sheet><link rel="stylesheet" href="Assets/CSS/style.css" type="text/css" />
+    <!link to CSS style sheet><link rel="stylesheet" href="../Assets/CSS/style.css" type="text/css" />
     </head>
     
     <body>
         <! header is the same on all pages>
-        <header>
+        <header class="header">
             <div class="row">
-                 <a href="index.html"><span>Nordic Choice Payroll Info</span></a>
+                 <a href="index.html col-md-1"><h1 class="title">Nordic Choice Payroll Info</h1></a>
             </div>
+            <div>
+                <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button type="search" class="btn btn-default">Submit</button>
+            </div>
+            
+</form>
         </header>
         
         <!body is unique on each page>
