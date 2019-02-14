@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
+
+
+/*......Heading*/
+nav{
+    width: 100%
+}
+
+title {
+    font-family: "Nunito", Arial;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0 24px;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 50%;
+    color:#004054;
+    text-decoration: none;
+   }
+
