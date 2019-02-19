@@ -2,19 +2,22 @@
 
 
 /*......Heading*/
-.header{
-    text-align: center;
-    margin-top:20px;
-}
+
+
 
 .title {
     font-family: "Nunito", Arial;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 50px;
     text-transform: uppercase;
     color:#004054;
     text-decoration: none;
+    padding-top:10px;
    }
+.Searchbar{
+    padding-top:31px;
+    
+}
 
 
