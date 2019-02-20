@@ -3,6 +3,9 @@
 
 /*......Heading*/
 
+a:hover { 
+text-decoration: none; 
+}
 
 
 .title {
