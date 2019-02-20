@@ -3,6 +3,7 @@
 
 /*......Heading*/
 
+/*....a:hover removes underline when hovering mouse over a link*/
 a:hover { 
 text-decoration: none; 
 }
