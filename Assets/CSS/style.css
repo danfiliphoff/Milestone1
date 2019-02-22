@@ -7,10 +7,14 @@
 
 .paddingtitle{
     padding-top:25px;
+    text-align: center;
 }
 
 .search{
-    padding-top: 25px;
+    padding-top: 28px;
+    padding-left: 40px;
+    position:fixed;
+    max-width:200px;
 }
 
 .title {
@@ -22,7 +26,9 @@
     color:#004054;
     text-decoration: none;
     padding-top: 25px;
-    position:relative;
+    position: fixed;
+    top: 0.5%;
+    left: 33%;
    }
 
 
@@ -30,15 +36,15 @@
   content: "";
   position: absolute;
   width: 650px;
-  height: 2px;
+  height: 4px;
   bottom: 0;
   left: 0;
   background-color: #000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
 }
 
 .title:hover:before {
