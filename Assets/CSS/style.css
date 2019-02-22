@@ -8,20 +8,20 @@ a:hover {
 text-decoration: none; 
 }
 
+.search{
+    padding-top: 25px;
+}
 
 .title {
     font-family: "Nunito", Arial;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 45px;
     line-height: 50px;
     text-transform: uppercase;
     color:#004054;
     text-decoration: none;
-    padding-top:10px;
+    padding-top: 25px;
    }
-.Searchbar{
-    padding-top:31px;
-    
-}
+
 
 
