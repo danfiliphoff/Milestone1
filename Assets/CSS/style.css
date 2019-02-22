@@ -5,6 +5,9 @@
 
 /*....a:hover removes underline when hovering mouse over a link*/
 
+.paddingtitle{
+    padding-top:25px;
+}
 
 .search{
     padding-top: 25px;
