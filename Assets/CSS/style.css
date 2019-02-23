@@ -63,8 +63,11 @@ text-decoration: none;
 
 .logo{
     background-repeat: no-repeat;
-    background-position: right;
     max-height: 80px;
+    position:fixed;
+    padding-left: 65px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 img:hover {
