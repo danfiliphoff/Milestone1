@@ -64,14 +64,14 @@ text-decoration: none;
 .footerbackgrund{
   background-color: #004054;
   margin-top: 10px;
-  border:;
 }
 
 .logo{
     background-repeat: no-repeat;
-    max-height: 90px;
+    max-height: 100px;
     position:fixed;
     padding-left: 55px;
+    padding-bottom: 15px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -82,6 +82,8 @@ img:hover {
 
 .social-links {
     padding-bottom: 15px;
+    list-style-type: none;
+    margin-top: 15px;
 }
 
 .social-links li a i {
@@ -102,4 +104,12 @@ img:hover {
 
 .social-links li a i:hover {
     background: #e84610;
+}
+.socialspacing{
+    margin-right: 10px;
+    color:#ffffff;
+    font-family: "Nunito", Arial;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
 }
