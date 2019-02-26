@@ -65,6 +65,10 @@ text-decoration: none;
 .footerbackgrund{
   background-color: #004054;
   margin-top: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo{
