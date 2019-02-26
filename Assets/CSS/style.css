@@ -70,10 +70,10 @@ text-decoration: none;
     background-repeat: no-repeat;
     max-height: 100px;
     position:fixed;
-    padding-left: 55px;
-    padding-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    margin-left:55px;
+    
 }
 
 img:hover {
@@ -106,12 +106,13 @@ img:hover {
     background:#ffffff ;
 }
 .socialspacing{
-    margin-top:10px;
+    margin-top:15px;
     color:#ffffff;
     font-family: "Nunito", Arial;
     text-transform: uppercase;
     font-weight: 300;
     text-decoration: none;
+    margin-right:10px;
 }
 
 .sociallinks{
