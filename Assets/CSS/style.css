@@ -128,13 +128,51 @@ img:hover {
 
 /*--------------------------------------------Body*/
 
+.indexcontent{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Assets/Pictures/index.jpg);
+}
+
 .mainbutton{
     border-radius: 50%;
-    color: #5adae9;
-    background-color: #004054;
+    color: #004054;
+    background: radial-gradient(#5adae9, #004054);
     height: 120px;
     width: 120px;
     font-family: "Nunito", Arial;
     font-weight: 800;
     font-size:16px;
+    border: 3px solid #00516b;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.mainbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mainbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mainbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.mainbutton:hover span {
+  padding-right: 25px;
+}
+
+.mainbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
