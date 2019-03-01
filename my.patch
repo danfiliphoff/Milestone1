@@ -1,0 +1,115 @@
+diff --git a/Assets/CSS/style.css b/Assets/CSS/style.css
+index f152b49..2fcc922 100644
+--- a/Assets/CSS/style.css
++++ b/Assets/CSS/style.css
+@@ -1,5 +1,4 @@
+ @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
+-
+ /*......Links*/
+ .linksline:before {
+   content: "";
+@@ -125,54 +124,3 @@ img:hover {
+ .sociallinks{
+     margin-top:10px;
+ }
+-
+-/*--------------------------------------------Body*/
+-
+-.indexcontent{
+-    background-position: center;
+-    background-repeat: no-repeat;
+-    background-size: cover;
+-    background-image: url(../Assets/Pictures/index.jpg);
+-}
+-
+-.mainbutton{
+-    border-radius: 50%;
+-    color: #004054;
+-    background: radial-gradient(#5adae9, #004054);
+-    height: 120px;
+-    width: 120px;
+-    font-family: "Nunito", Arial;
+-    font-weight: 800;
+-    font-size:16px;
+-    border: 3px solid #00516b;
+-    transition: all 0.5s;
+-    cursor: pointer;
+-}
+-.mainbutton:hover {
+-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+-}
+-
+-.mainbutton span {
+-  cursor: pointer;
+-  display: inline-block;
+-  position: relative;
+-  transition: 0.5s;
+-}
+-
+-.mainbutton span:after {
+-  content: '\00bb';
+-  position: absolute;
+-  opacity: 0;
+-  top: 0;
+-  right: -20px;
+-  transition: 0.5s;
+-}
+-
+-.mainbutton:hover span {
+-  padding-right: 25px;
+-}
+-
+-.mainbutton:hover span:after {
+-  opacity: 1;
+-  right: 0;
+-}
+\ No newline at end of file
+diff --git a/Assets/Pictures/index.jpg b/Assets/Pictures/index.jpg
+deleted file mode 100644
+index 617755b..0000000
+Binary files a/Assets/Pictures/index.jpg and /dev/null differ
+diff --git a/Pages/Index.html b/Pages/Index.html
+index e1860b6..9c9b470 100644
+--- a/Pages/Index.html
++++ b/Pages/Index.html
+@@ -5,14 +5,21 @@
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+     <link rel="stylesheet" href="../Assets/CSS/style.css" type="text/css" />
+     <link rel="stylesheet" href="../Assets/Pictures/NCH new logo.jpg" type="picture" />
+-    <link rel="stylesheet" href="../Assets/Pictures/index.jpg" type="picture" />
+     </head>
+     
+     <body>
+         <header>
+             <div class="container-fluid">
+                 <div class="row">
+-                    <div class="col-md-12 paddingtitle">
++                    <div class="col-md-2">
++                       <div class="grid-element search">
++                           <form class="navbar-form navbar-left" role="search"></form>
++                           <div class="form-group"></div>
++                           <input type="text" class="form-control" placeholder="Search"></input>
++                           <button type="search" class="btn btn-default glyphicon glyphicon-search"></button>
++                        </div>
++                    </div> 
++                    <div class="col-md-10 paddingtitle">
+                      <a href="Index.html"><span class="title linksline">Nordic Choice Payroll</span></a>
+                     </div>
+                 </div>
+@@ -22,13 +29,11 @@
+          
+         
+        
+-        <section class="container-fluid indexcontent">
++        <body class="container-fluid">
+             <div class="row">
+-                <div class="col-md-12">
+-                    <button class="mainbutton"><span>Benefits</span></span></button>
+-                </div>
++                <div class="col-md-12">Body</div>
+             </div>
+-        </section>
++        </body>
+           
+       
+         <foter class="container-fluid">
