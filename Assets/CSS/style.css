@@ -130,6 +130,10 @@ img:hover {
     margin-top: 5%;
 }
 
+.center-btn{
+    margin-right: 20px;
+}
+
 .mainbutton{
     border-radius: 50%;
     color: #004054;
