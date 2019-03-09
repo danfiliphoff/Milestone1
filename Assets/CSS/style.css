@@ -35,11 +35,6 @@ text-decoration: none;
     text-align: center;
 }
 
-.search{
-    padding-top: 28px;
-    padding-left: 40px;
-    position:fixed;
-}
 
 .title {
     font-family: "Nunito", Arial;
@@ -54,10 +49,6 @@ text-decoration: none;
     top: 0.5%;
     left: 33%;
    }
-
-
-
-
 
 
 
@@ -127,12 +118,14 @@ img:hover {
 }
 
 /*--------------------------------------------Body*/
-
-.indexcontent{
+.index-background{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Assets/Pictures/index.jpg);
+    background-image: url("./Assets/Pictures/background index.jpg");
+}
+
+.indexcontent{
     text-align: center;
     margin-top: 5%;
 }
@@ -154,10 +147,6 @@ img:hover {
     margin-top: 22px;
     margin-left: 40px;
 }
-
-
-
-
 
 .mainbutton:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
