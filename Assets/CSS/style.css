@@ -121,7 +121,7 @@ img:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./Assets/Pictures/background index.jpg");
+    background-image: url("../Pictures/payroll.jpg");
 }
 
 .indexcontent{
@@ -155,7 +155,7 @@ img:hover {
 
 @media (max-width:767px) {
     .mobile {
-        background-color: #0997d3;
+        background-color:
     }
 }
 
