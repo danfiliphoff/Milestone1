@@ -55,7 +55,7 @@ text-decoration: none;
 
 .footerbackgrund{
   background-color: #004054;
-  margin-top: 10px;
+  margin-top:10px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -80,7 +80,7 @@ img:hover {
     padding-bottom: 15px;
     list-style-type: none;
     margin-top: 15px;
-    margin-left:720px;
+    text-align: right;
 }
 
 .social-links li a i {
@@ -114,6 +114,7 @@ img:hover {
 
 .sociallinks{
     margin-top:10px;
+    margin-right: 50px;
 }
 
 /*--------------------------------------------Body*/
