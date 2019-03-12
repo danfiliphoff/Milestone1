@@ -44,10 +44,17 @@ text-decoration: none;
     text-transform: uppercase;
     color:#004054;
     text-decoration: none;
-    padding-top: 25px;
     top: 0.5%;
     position: relative;
    }
+@media (max-width:767px) {
+    .tablettitle {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 30px;
+    padding-top: 20px;
+    }
+}
 
 
 
@@ -120,8 +127,8 @@ img:hover {
 /*--------------------------------------------Body*/
 .index-background{
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
     background-image: url("../Pictures/payroll.jpg");
 }
 
