@@ -47,6 +47,17 @@ text-decoration: none;
     top: 0.5%;
     position: relative;
    }
+@media  (min-width: 2030px){
+    .largescreentitle {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 60px;
+    padding-top: 20px;
+    color: #5adae9;
+    }
+}
+     
+  
 @media  (min-width: 427px) and (max-width: 768px) {
     .tablettitle {
     font-weight: 800;
