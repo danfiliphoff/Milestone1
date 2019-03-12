@@ -47,11 +47,20 @@ text-decoration: none;
     top: 0.5%;
     position: relative;
    }
-@media (max-width:767px) {
+@media  (min-width: 427px) and (max-width: 768px) {
     .tablettitle {
     font-weight: 800;
     font-size: 35px;
     line-height: 30px;
+    padding-top: 20px;
+    }
+}
+
+@media  (min-width: 0px) and (max-width: 426px) {
+    .mobilettitle {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
     padding-top: 20px;
     }
 }
