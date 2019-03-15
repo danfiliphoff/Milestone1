@@ -101,7 +101,7 @@ text-decoration: none;
 @media  (min-width: 769px) and (max-width: 1025px) {
     .logo-medium {
     max-height: 75px;
-    margin-top: 10px;
+    margin-top: 16px;
     margin-left:20px;
     }
 }
@@ -109,7 +109,7 @@ text-decoration: none;
 @media  (min-width: 0px) and (max-width: 798px) {
     .logo-small {
     max-height: 65px;
-    margin-top: 10px;
+    margin-top: 16px;
     margin-bottom: 20px;
     margin-left:15px;
     }
@@ -126,6 +126,15 @@ img:hover {
     margin-top: 15px;
     text-align: right;
 }
+
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .social-links-medium {
+    margin-top: 10px;
+    }
+}
+
+
+
 
 .social-links li a i {
     width: 40px;
@@ -153,6 +162,12 @@ img:hover {
     margin-top: 15px;
 }
 
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .mail-footer-medium {
+    margin-top: 10px;
+    }
+}
+
 .mail-footer li a i {
     margin-top: 10px;
     width: 40px;
@@ -168,6 +183,15 @@ img:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .mail-footer-medium  li a i{
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 19px;
+        padding-top: 5px;
+    }
 }
 
 .mail-footer li a i:hover {
@@ -186,6 +210,15 @@ img:hover {
     font-weight: 300;
     text-decoration: none;
     margin-right:10px;
+}
+
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .socialspacing-medium{
+    margin-top:0px;
+    font-weight: 200;
+    margin-right:5px;
+    font-size: 12px;
+    }
 }
 
 .sociallinks{
