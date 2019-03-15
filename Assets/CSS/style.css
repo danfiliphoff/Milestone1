@@ -93,7 +93,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     max-height: 100px;
     position:fixed;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 20px;
     margin-left:55px;
 }
@@ -123,17 +123,9 @@ img:hover {
 .social-links {
     padding-bottom: 15px;
     list-style-type: none;
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: right;
 }
-
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .social-links-medium {
-    margin-top: 10px;
-    }
-}
-
-
 
 
 .social-links li a i {
@@ -150,6 +142,14 @@ img:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .social-links-medium  li a i{
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+    }
 }
 
 .social-links li a i:hover {
@@ -184,15 +184,8 @@ img:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .mail-footer-medium  li a i{
-        width: 30px;
-        height: 30px;
-        font-size: 25px;
-        line-height: 19px;
-        padding-top: 5px;
-    }
-}
+
+
 
 .mail-footer li a i:hover {
     background:#ffffff ;
@@ -200,10 +193,7 @@ img:hover {
 
 
 
-
-
 .socialspacing{
-    margin-top:15px;
     color:#ffffff;
     font-family: "Nunito", Arial;
     text-transform: uppercase;
@@ -224,6 +214,12 @@ img:hover {
 .sociallinks{
     margin-top:10px;
     margin-right: 50px;
+}
+
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .sociallinks-medium{
+    margin-right: 15px;
+    }
 }
 
 .footeremail{
