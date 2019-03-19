@@ -47,34 +47,7 @@ text-decoration: none;
     top: 0.5%;
     position: relative;
    }
-@media  (min-width: 2030px){
-    .largescreentitle {
-    font-weight: 800;
-    font-size: 65px;
-    line-height: 60px;
-    padding-top: 20px;
-    color: #5adae9;
-    }
-}
-     
-  
-@media  (min-width: 427px) and (max-width: 768px) {
-    .tablettitle {
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 30px;
-    padding-top: 20px;
-    }
-}
 
-@media  (min-width: 0px) and (max-width: 426px) {
-    .mobilettitle {
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 40px;
-    padding-top: 20px;
-    }
-}
 
 
 
@@ -82,9 +55,9 @@ text-decoration: none;
 
 .footerbackgrund{
   background-color: #004054;
-  margin-top:10px;
   position: fixed;
-  left: 0;
+  left: auto;
+  right: auto;
   bottom: 0;
   width: 100%;
 }
@@ -98,22 +71,7 @@ text-decoration: none;
     margin-left:55px;
 }
 
-@media  (min-width: 769px) and (max-width: 1025px) {
-    .logo-medium {
-    max-height: 75px;
-    margin-top: 16px;
-    margin-left:20px;
-    }
-}
 
-@media  (min-width: 0px) and (max-width: 798px) {
-    .logo-small {
-    max-height: 65px;
-    margin-top: 16px;
-    margin-bottom: 20px;
-    margin-left:15px;
-    }
-}
 
 
 img:hover {
@@ -144,13 +102,7 @@ img:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .social-links-medium  li a i{
-        width: 35px;
-        height: 35px;
-        font-size: 22px;
-    }
-}
+
 
 .social-links li a i:hover {
     background:#ffffff ;
@@ -162,17 +114,14 @@ img:hover {
     margin-top: 15px;
 }
 
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .mail-footer-medium {
-    margin-top: 10px;
-    }
-}
+
 
 .mail-footer li a i {
     margin-top: 10px;
     width: 40px;
     height: 40px;
     padding: 15px 0;
+    font-weight: 900;
     border-radius: 50%;
     font-size: 28px;
     line-height: 7px;
@@ -202,25 +151,14 @@ img:hover {
     margin-right:10px;
 }
 
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .socialspacing-medium{
-    margin-top:0px;
-    font-weight: 200;
-    margin-right:5px;
-    font-size: 12px;
-    }
-}
+
 
 .sociallinks{
     margin-top:10px;
     margin-right: 50px;
 }
 
-@media  (min-width: 0px) and (max-width: 1025px) {
-    .sociallinks-medium{
-    margin-right: 15px;
-    }
-}
+
 
 
 .footeremail{
@@ -294,5 +232,130 @@ img:hover {
 .mainbutton:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+
+/*--------------------------------------------Media*/
+
+@media  (min-width: 2030px){
+    .largescreentitle {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 60px;
+    padding-top: 20px;
+    color: #5adae9;
+    }
+}
+
+@media  (min-width: 769px) and (max-width: 1025px) {
+    .logo-medium {
+    max-height: 75px;
+    margin-top: 16px;
+    margin-left:20px;
+    }
+}
+
+@media  (min-width: 724px) and (max-width: 1025px) {
+    .socialspacing-medium{
+    margin-top:0px;
+    font-weight: 200;
+    margin-right:5px;
+    font-size: 12px;
+    }
+}
+     
+ 
+
+
+@media  (min-width: 0px) and (max-width: 1025px) {
+    .mail-footer-medium {
+    margin-top: 10px;
+    }
+    
+    .social-links-medium  li a i{
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+    }
+    
+    .sociallinks-medium{
+    margin-right: 15px;
+    }
+    
+    
+    
+}
+
+@media  (min-width: 427px) and (max-width: 768px) {
+    .tablettitle {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 30px;
+    padding-top: 20px;
+    }
+}
+
+
+@media  (min-width: 0px) and (max-width: 798px) {
+    .logo-small {
+    max-height: 65px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-left:15px;
+    }
+}
+
+@media  (min-width: 0px) and (max-width: 723px) {
+    .socialspacing-small{
+    font-size: 9px;
+    }
+    
+    .social-links-small li a i {
+    width: 25px;
+    height: 25px;
+    padding: 10px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 4px;
+    text-align: center;
+    color:#004054;
+    background:#5adae9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+     .mail-footer-medium li a i{
+    margin-top: 1px;
+    width: 24px;
+    height: 23px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 7px;
+    text-align: center;
+    color:#004054;
+    background:#5adae9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+}
+    
+
+@media  (min-width: 0px) and (max-width: 426px) {
+    .mobilettitle {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 20px;
+    }
+    
+    .socialspacing-mobile{
+    display:none;
+    }
 }
 
