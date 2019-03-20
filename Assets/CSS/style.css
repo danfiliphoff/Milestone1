@@ -233,7 +233,14 @@ img:hover {
   opacity: 1;
   right: 0;
 }
+/*--------------------------------------------Contact*/
 
+.contact-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../Pictures/contact.jpg");
+    }
 
 /*--------------------------------------------Media*/
 
