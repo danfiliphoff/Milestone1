@@ -250,7 +250,7 @@ img:hover {
 @media  (min-width: 769px) and (max-width: 1025px) {
     .logo-medium {
     max-height: 75px;
-    margin-top: 16px;
+    margin-top: 15px;
     margin-left:20px;
     }
 }
@@ -281,6 +281,7 @@ img:hover {
     .sociallinks-medium{
     margin-right: 15px;
     }
+    
     
     
     
@@ -328,13 +329,13 @@ img:hover {
 
      .mail-footer-medium li a i{
     margin-top: 1px;
-    width: 24px;
-    height: 23px;
+    width: 25px;
+    height: 25px;
     padding: 8px 0;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 800;
-    line-height: 7px;
+    line-height: 8px;
     text-align: center;
     color:#004054;
     background:#5adae9;
@@ -343,6 +344,10 @@ img:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     }
+    
+  
+    
+  
 }
     
 
