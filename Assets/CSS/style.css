@@ -241,6 +241,26 @@ img:hover {
     background-size:cover;
     background-image: url("../Pictures/contact.jpg");
     }
+    
+.email-heading{
+    font-family: "Nunito", Arial;
+    font-weight: 600;
+    font-size: 20px;
+    color:#000000;
+    text-align: center;
+    margin-top:20px;
+    max-width: 400px;
+}
+
+.container{
+    text-align: center;
+    max-width: 400px;
+}
+
+
+
+
+
 
 /*--------------------------------------------Media*/
 
@@ -368,6 +388,10 @@ img:hover {
     
     .socialspacing-mobile{
     display:none;
+    }
+    
+    .email-heading{
+        font-size: 14px;
     }
 }
 
