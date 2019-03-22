@@ -29,7 +29,7 @@
              <div class="col-xs-12">
                 <div class="email-heading">We LOVE to help you!<br>You have the voice of an angel but unfortunatly we are not availible for phone calls. Kindly email us and we will get back to you shortly. </div>
                 <br>
-                <form>
+                <form id="email-contact-form">
                     <div class="row">
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputName" name='Name' placeholder="Name" required>
@@ -43,19 +43,21 @@
                     </div>
                     
                     <div class="row">
-                      <div class="dropdown">
-                       <button class="btn btn-default dropdown-toggle property-width" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <span class="caret"></span>
-                         Property Code
-                       </button>
-                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li>SE099</li>
-                        <li>SE044</li>
-                        <li>SE066</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                       </ul>
-                      </div>
+        
+        <fieldset>
+          <div>
+             <select id = "email-contact-form" class="property-code">
+               <option value = "1">Select Property Code</option>
+               <option value = "2">two</option>
+               <option value = "3">three</option>
+               <option value = "4">four</option>
+             </select>
+          </div>
+             
+       </fieldset>
+                      
+                      
+                      
                    </div>
                     
                     

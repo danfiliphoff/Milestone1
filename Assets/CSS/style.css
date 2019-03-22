@@ -257,14 +257,23 @@ img:hover {
     max-width: 400px;
 }
 
-.property-width{
-    width: 100%;
-    text-align:left;
+.property-style{
     color:#9B9B9B;
 }
-.dropdown{
-    position: relative;
+
+.property-code{
+    width: 100%;
+    Height:30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
 }
+
+
+    
 
 
 
