@@ -281,11 +281,21 @@ img:hover {
 .navigation-pills{
     max-width: 180px;
     float: left;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 20px;
 }
 
 
+ .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+        background-color: #004054;
+        font-family: "Nunito", Arial;
+        font-weight: 545;
+    }
+
+        .nav-pills > li.active > a:hover {
+            background-color: #5adae9;
+            color:black;
+        }
 
     
 
