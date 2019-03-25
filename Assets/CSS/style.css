@@ -103,17 +103,15 @@ text-decoration: none;
 
 .footerbackgrund{
   background-color: #004054;
-  position: fixed;
   left: auto;
   right: auto;
   bottom: 0;
-  width: 95%;
+  margin-top: 50px;
 }
 
 .logo{
     background-repeat: no-repeat;
     max-height: 100px;
-    position:fixed;
     margin-top: 12px;
     margin-bottom: 20px;
     margin-left:55px;
@@ -129,8 +127,9 @@ img:hover {
 .social-links {
     padding-bottom: 15px;
     list-style-type: none;
-    margin-top: 20px;
     text-align: right;
+    margin-right: 30px;
+    margin-top: 15px;
 }
 
 
@@ -202,17 +201,11 @@ img:hover {
 
 
 .sociallinks{
-    margin-top:10px;
-    margin-right: 50px;
+    margin-top:5px;
 }
 
 
 
-
-.footeremail{
-    margin-top:20px;
-    text-align: center;
-}
 
 /*--------------------------------------------Body*/
 .body-size{
