@@ -97,11 +97,18 @@ text-decoration: none;
 
 .search-btn{
     background: radial-gradient(#5adae9, #017296);
-    border: 1px solid #00516b;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
 }
 
 .form-control{
     background-color:#BECCCC;
+}
+
+.glyphicon-search{
+    font-size: 20px;
+    margin-left:-7px;
 }
 
 
