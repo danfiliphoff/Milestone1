@@ -33,7 +33,6 @@ text-decoration: none;
   font-size: 30px;
   border: none;
   border-radius:7px;
-  display: inline-block;
 }
 
 .bcc{
@@ -95,6 +94,15 @@ text-decoration: none;
     top: 0.5%;
     position: relative;
    }
+
+.search-btn{
+    background: radial-gradient(#5adae9, #017296);
+    border: 1px solid #00516b;
+}
+
+.form-control{
+    background-color:#BECCCC;
+}
 
 
 
