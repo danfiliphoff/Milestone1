@@ -138,7 +138,9 @@ text-decoration: none;
     background: radial-gradient(#5adae9, #017296);
 }
 
-
+.glyphicon-align-justify{
+    font-size: 35px;
+}
 
 /*--------------------------------------------Footer*/
 
