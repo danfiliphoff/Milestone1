@@ -131,11 +131,13 @@ text-decoration: none;
 
 .navbar-style{
     border: solid;
-    border-bottom-width: 1px;
     margin-top: 8px;
-    max-height: 36px;
+    margin-left:0.3em;
+    margin-right: 1px;
+    max-height: 35px;
     border-radius: 5px;
     background: radial-gradient(#5adae9, #017296);
+    
 }
 
 .glyphicon-align-justify{
