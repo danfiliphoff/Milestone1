@@ -81,7 +81,16 @@ text-decoration: none;
     
 }
 
+.navbar-nav>li>.dropdown-menu {
+     border-radius: 10px;
+     background-color: #5adae9;
+     border:solid;
+     border-color:#004054;
+}
 
+.dropdown-menu>li>a{
+    padding: 0px 0px;
+}
 
 
 
