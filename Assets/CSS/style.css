@@ -106,7 +106,7 @@ text-decoration: none;
 
 .search-bar{
     float:right;
-    max-width: 75%;
+    max-width: 82%;
     margin-left: 10px;
 }
 
@@ -130,7 +130,8 @@ text-decoration: none;
 }
 
 .navbar-style{
-    border:solid;
+    border: solid;
+    border-bottom-width: 1px;
     margin-top: 8px;
     max-height: 36px;
     border-radius: 5px;
@@ -393,15 +394,7 @@ img:hover {
 
 /*--------------------------------------------Media*/
 
-@media  (min-width: 2030px){
-    .largescreentitle {
-    font-weight: 800;
-    font-size: 65px;
-    line-height: 60px;
-    padding-top: 20px;
-    color: #5adae9;
-    }
-}
+
 
 @media  (min-width: 769px) and (max-width: 1025px) {
     .logo-medium {
