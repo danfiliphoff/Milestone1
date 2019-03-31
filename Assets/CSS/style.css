@@ -92,6 +92,13 @@ text-decoration: none;
     padding: 0px 0px;
 }
 
+.navbar-nav>li>a{
+    line-height: 10px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #5adae9;
+}
 
 
 
@@ -470,6 +477,10 @@ img:hover {
     margin-top: 16px;
     margin-bottom: 20px;
     margin-left:15px;
+    }
+    
+    .navbar-nav>li>a{
+        line-height: 14px;
     }
 }
 
