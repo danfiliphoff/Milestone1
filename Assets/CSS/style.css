@@ -54,6 +54,9 @@ text-decoration: none;
     background: radial-gradient(#5adae9, #017296);
 }
 
+.navbar-center{
+    margin-left: 50%;
+}
 
 
 
@@ -99,6 +102,7 @@ text-decoration: none;
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
     background-color: #5adae9;
 }
+
 
 
 
