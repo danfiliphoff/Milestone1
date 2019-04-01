@@ -54,13 +54,18 @@ text-decoration: none;
     background: radial-gradient(#5adae9, #017296);
 }
 
+
+
+
 .navbar-center{
     margin-left: 50%;
 }
 
-.dropdown-menu>li>a:hover {
-    background-color: none;
+.nav>li>a:hover{
+    color:#5adae9;
 }
+
+
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
