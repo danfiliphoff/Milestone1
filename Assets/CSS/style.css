@@ -58,7 +58,9 @@ text-decoration: none;
     margin-left: 50%;
 }
 
-
+.dropdown-menu>li>a:hover {
+    background-color: none;
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
