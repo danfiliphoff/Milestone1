@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 .nav>li>a:hover{
-    color:#5adae9;
+    color:red;
 }
 
 
@@ -378,7 +378,7 @@ img:hover {
     max-width: 400px;
 }
 
-.container{
+.container-center{
     text-align: center;
     max-width: 400px;
 }
@@ -423,9 +423,25 @@ img:hover {
             color:black;
         }
 
-    
+/*--------------------------------------------Benefits*/    
+
+.topics-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../Pictures/topics_background.jpg");
+    }
 
 
+.benfit-payslip-example{
+    width: 100%;
+    height:100%;
+}
+
+.conatainer-topics{
+     text-align: justify;
+     max-width: 400px;
+}
 
 
 /*--------------------------------------------Media*/
