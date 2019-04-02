@@ -29,9 +29,6 @@ text-decoration: none;
 /* Dropdown Navigation */
 
 
-
-
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   text-align: center;
   max-height: 30px;
@@ -51,9 +48,8 @@ text-decoration: none;
     margin-left:0.3em;
     margin-right: 1px;
     border-radius: 5px;
-    background: radial-gradient(#5adae9, #017296);
+    background: radial-gradient(#5adae9, #017296)!important;
 }
-
 
 
 
@@ -62,7 +58,7 @@ text-decoration: none;
 }
 
 .nav>li>a:hover{
-    color:red;
+    color:red !important;
 }
 
 
@@ -286,7 +282,7 @@ img:hover {
 }
 
 
-/*--------------------------------------------Body*/
+/*--------------------------------------------Body Index*/
 .body-size{
     position: relative;
     height: 100%;
@@ -304,7 +300,6 @@ img:hover {
     text-align: center;
     margin-top: 1%;
 }
-
 
 
 .center-btn{
@@ -404,24 +399,33 @@ img:hover {
     display: block;
 }
 
-.navigation-pills{
-    max-width: 180px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 20px;
+
+
+/*--------------------------------------------Topics Body*/ 
+.Topic-header{
+  font-family: "Nunito", Arial;
+  font-weight: 700;
+  font-size:  25px;
+  color:#004054;
+  text-align: center;
+    
 }
 
 
- .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-        background-color: #004054;
-        font-family: "Nunito", Arial;
-        font-weight: 545;
-    }
+.Topic-sub-header{
+  font-family: "Nunito", Arial;
+  font-weight: 600;
+  font-size:  18px;
+  color:#004054;
+  text-align: center;
+}
 
-        .nav-pills > li.active > a:hover {
-            background-color: #5adae9;
-            color:black;
-        }
+.Topic-text{
+  font-family: "Nunito", Arial;
+  color:#004054;
+}
+
+
 
 /*--------------------------------------------Benefits*/    
 
