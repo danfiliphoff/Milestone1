@@ -444,7 +444,7 @@ img:hover {
 
 .conatainer-topics{
      text-align: justify;
-     max-width: 400px;
+     max-width: 600px;
 }
 
 
@@ -457,6 +457,12 @@ img:hover {
     max-height: 75px;
     margin-top: 15px;
     margin-left:20px;
+    }
+}
+
+@media (min-width: 769px){
+    .Topic-text{
+        font-size: 20px;
     }
 }
 
