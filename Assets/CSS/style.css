@@ -57,9 +57,7 @@ text-decoration: none;
     margin-left: 50%;
 }
 
-.nav>li>a:hover{
-    color:red !important;
-}
+
 
 
 
@@ -81,6 +79,7 @@ text-decoration: none;
     font-weight: 600;
     font-size:  20px;
     color:#004054;
+    margin-top: 10px;
     
 }
 
@@ -89,6 +88,7 @@ text-decoration: none;
      background-color: #A9FEFB;
      border:solid;
      border-color:#004054;
+     min-width: 300px;
 }
 
 .dropdown-menu>li>a{
@@ -111,6 +111,7 @@ text-decoration: none;
 
 .nav>li>a:focus, .nav>li>a:hover{
     background-color:#A4FEFE;
+    max-height: 28px;
 }
 
 
